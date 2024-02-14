@@ -9,7 +9,7 @@ add_user() {
 	else
 		sudo useradd "$uname"
 		read -p "enter password: " pword
-		echo "$uname:$pword" | sudo  chpasswd
+#		echo "$uname:$pword" | sudo  chpasswd
 		echo "username $uname added successfully."
 	fi
 }
