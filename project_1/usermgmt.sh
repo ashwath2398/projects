@@ -8,7 +8,7 @@ add_user() {
 		echo "user $uname already exist."
 	else
 		sudo useradd "$uname"
-		read -p "enter password: " pword
+#		read -p "enter password: " pword
 #		echo "$uname:$pword" | sudo  chpasswd
 		echo "username $uname added successfully."
 	fi
